@@ -9,7 +9,7 @@ const Checklist = () => {
         One point per box checked!
       </h2>
       <h2>/144</h2>
-      <Game games={gamesList} />
+      <Game />
     </div>
   );
 };
