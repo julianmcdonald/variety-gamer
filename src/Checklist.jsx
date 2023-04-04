@@ -1,4 +1,4 @@
-import Game, { gamesList } from "./Games";
+import Game from "./Games";
 
 const Checklist = () => {
   return (
