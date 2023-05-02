@@ -15,10 +15,14 @@ const Game = (props) => {
   };
 
   return (
-    <div>
+    <div className="wrapper">
       {gamesList.map((game, index) => {
         return (
-          <div key={index}>
+          <label
+            className={`checkbox ${checkedState[index] ? "active" : ""}`}
+            htmlFor={`game-${index}`}
+            key={index}
+          >
             <input
               type="checkbox"
               id={`game-${index}`}
@@ -27,8 +31,8 @@ const Game = (props) => {
               checked={checkedState[index]}
               onChange={() => handleOnChange(index)}
             />
-            <label htmlFor={`game-${index}`}>{game}</label>
-          </div>
+            {game}
+          </label>
         );
       })}
     </div>
