@@ -1,4 +1,4 @@
-import { gamesList } from "./gamesList";
+import gamesList from "./gamesList";
 import { useState } from "react";
 
 const Game = (props) => {

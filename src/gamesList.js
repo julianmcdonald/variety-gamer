@@ -1,4 +1,4 @@
-export const gamesList = [
+const gamesList = [
   "Counter-Strike",
   "CoD",
   "Medal Of Honor",
@@ -144,3 +144,5 @@ export const gamesList = [
   "Terraria",
   "Flappy Bird",
 ];
+
+export default gamesList;

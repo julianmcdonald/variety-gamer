@@ -1,6 +1,6 @@
 import Game from "./Games";
 import { useState } from "react";
-import { gamesList } from "./gamesList";
+import gamesList from "./gamesList";
 
 const Checklist = () => {
   const [gamesCount, setGamesCount] = useState(0);
