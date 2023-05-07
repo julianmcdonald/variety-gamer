@@ -8,5 +8,5 @@ Head over to the [Variety Gamer hosted app](https://julianmcdonald.github.io/var
 10 - 20 Beginner  
 20 - 40 Casual  
 40 - 80 Legit Gamer  
-80 - 139 Pro  
+80 - 143 Pro  
 144 ???
