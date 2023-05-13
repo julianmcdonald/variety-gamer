@@ -35,6 +35,16 @@ const Game = (props) => {
           </label>
         );
       })}
+      <button
+        onClick={() => setCheckedState(new Array(gamesList.length).fill(false))}
+      >
+        Uncheck all
+      </button>
+      <button
+        onClick={() => setCheckedState(new Array(gamesList.length).fill(true))}
+      >
+        Check all
+      </button>
     </div>
   );
 };

@@ -14,17 +14,15 @@ const Checklist = () => {
 
   return (
     <div>
-      <div>
-        <h1>What is your VARIETY gamer score?</h1>
-        <h2>
-          Which of these Video Game Series did you play (at least one game of?)
-          One point per box checked!
-        </h2>
-        <h2>
-          {gamesCount}/{totalGames}
-        </h2>
-        <Game handleCheckboxChange={handleCheckboxChange} />
-      </div>
+      <h1>What is your VARIETY gamer score?</h1>
+      <h2>
+        Which of these Video Game Series did you play (at least one game of?)
+        One point per box checked!
+      </h2>
+      <h2>
+        {gamesCount}/{totalGames}
+      </h2>
+      <Game handleCheckboxChange={handleCheckboxChange} />
     </div>
   );
 };

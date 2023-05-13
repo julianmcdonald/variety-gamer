@@ -1,6 +1,5 @@
 import "./App.css";
 import Checklist from "./Checklist";
-import Button from "./Button";
 import { useState } from "react";
 
 function App() {
@@ -8,14 +7,20 @@ function App() {
 
   const submitHandler = () => {
     setSubmitted(!submitted);
-    console.log(submitted);
   };
 
   return (
     <div>
       {!submitted ? (
         <div>
-          <Checklist /> <Button submitHandler={submitHandler} />
+          <Checklist />{" "}
+          <button
+            className="submit-button"
+            type="submit"
+            onClick={() => submitHandler()}
+          >
+            Submit
+          </button>{" "}
         </div>
       ) : (
         <div>
