@@ -5,10 +5,10 @@ import gamesList from "./gamesList";
 const Checklist = () => {
   const [gamesCount, setGamesCount] = useState(0);
 
-  const totalGames = gamesList.length;
+  const totalGames: number = gamesList.length;
 
   const handleCheckboxChange = (checkedState) => {
-    const count = checkedState.filter(Boolean).length;
+    const count: number = checkedState.filter(Boolean).length;
     setGamesCount(count);
   };
 

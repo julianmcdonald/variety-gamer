@@ -1,4 +1,4 @@
-const gamesList = [
+const gamesList: string[] = [
   "Counter-Strike",
   "CoD",
   "Medal Of Honor",
